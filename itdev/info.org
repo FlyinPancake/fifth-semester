@@ -1,0 +1,55 @@
+#+TITLE: IT eszközök tárgyinfó
+#+author: Doma Pálvölgyi
+
+* Tárgykövetelmények
+** Labor
+- 5 alkalom
+- 4-et ebből teljesíteni
+- A laborok a 2. héten kezdődnek
+- Pótolni az utolsó héten / póthéten lehet
+- Saját laborkurzusra KELL menni
+*** Laborokra felkészülés
+    - A laborok és az előadások szinkronba vannak
+    - Megfelelt / nem felelt meg / kiválóan megfelelt
+*** COVID
+    - Ne a labor folyosóján várakozzunk
+    - Maszk viselése ?
+    - Aki betegeskedik takarodjon a picsába
+*** Laborok tematikája
+    1. CMOS inverter és kapu szimulációja
+    2. Modellezés hardver leíró nyelven VHDL
+    3. Egyszerű digitális modul elkészítése FPGA-n
+    4. Soft processzoros számítógép FPGA-n
+    5. Hőmérsékletmérés FPGA-val, esettanulmány
+** Kis házi
+- A félév során 10-szer kari moodle-n.
+- 2. héttől hetente
+- 3 try időkorlát mentes teszt
+- Hétfő hajnali 4 a beadás
+- 20%-ban számít bele az évvégi jegybe
+- *Követelmény 40%* de többet is lehet csinálni
+** ZH
+- utolsó héten, mooooooodle, jelenléti
+- kari utasításoknak megfelelően
+- tematika:
+  + teszt
+  + rövid feladatok
+  + összetett feladatok
+- pót lesz, pót-pót nem
+** IMSC
+- Minden laboron IMSC feladatok 1p /feladat
+- IMSC házik 5*3 pont
+- IMSC extra feladat
+* Távolléti oktatás tudnivalók
+- Laborok helyett NHF
+- Az előadások fel vannak véve
+* Előkövetelmények
+- Fizika
+  + gimis anyag, kis deriválás
+- Digit
+  + Egy kicsit részletesebben megnézzük hogy mi volt ott
+- SzAr jól jön
+* Adminisztráció
+- https://edu.vik.bme.hu
+- Teams csatorna
+- Diák moodle-n

@@ -1,0 +1,46 @@
+#+title: 1. előadás
+#+author: Doma Pálvölgyi
+* Rövid bevezetés
+** Miről lesz szó
+- Milyen részekből áll a rendszer
+- Hogyan tervezik ezeket a komponenseket
+- Mik a legfontosabb terezési szempontok
+- stb.
+* Alkalmazott technikák összefoglalása
+** Integrált áramkörök és összekötésük
+- Az IC-kben többmilliárd alkatrészből (tranzisztor) állnak
+- Nyomtatott huzalozású lemez feladata a különböző diszkrét alkatrészek összekötése
+** Tranzisztor
+- 1947-48
+- Az amerikaiak megépítették, az oroszok kitalálták a matekját
+- Az elsők germániumból voltak és 54-ben készíti el a TI az első szilícium tranzisztort
+** IC és MOS tranzisztor
+- Mit jelent hogy egy anyag félvezető?
+- Miből van egy tranzisztor?
+- Hogy működik?
+- Miért lesz jó logikai áramkörök megvalósítására?
+** A digitális logika megvalósítása (2-3. óra)
+- Logikai áramkörök
+- Rossz hírek
+  + fogyasztás, delay és ezek összefüggése
+- Kombinációs és szekvenciális hálózatok megvalósítása
+** Digitális rendszertervezés (4. óra, 2-5. lab)
+- Renszertervezés folyamata
+- HDL-ek
+- Logikai és fizikai szintézis
+** Memória technológiák (5. óra)
+- RAM
+- ROM
+- CAM
+** ASIC és programozható logikai eszközök (6. óra)
+- Egyedi IC
+** Hogyan illesztjük a digitális IC-t a rendszerbe (7. óra)
+** Érzékelők, MEMS (8. óra)
+- Szilícium szenzorok
+- fizikai hatást milyen pontossággal
+** Többi EA
+- Megjelenítő eszközök technológiája 9.
+- AD/DA konverzió 10.
+- Teljesítmény és hőproblémák 11.
+- Elektronikai tech alapjai 12.
+- Modern CMOS 13.

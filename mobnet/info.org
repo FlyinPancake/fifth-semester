@@ -1,0 +1,41 @@
+#+TITLE: Mobilhálózatok Infók
+#+author: Doma Pálvölgyi
+* Távközlési szakosztály
+- https://www.hte.hu/tavkozlesi-szakosztaly
+- Lehet extra pontokat kapni
+* Adminisztráció
+- https://edu.vik.bme.hu
+* Követelmény
+- órán és gyakorlaton való részvétel nem (csak erősen ajánlott)
+- 1 ZH
+- írásbeli vizsga
+- pótlás:
+  + ZH pótolható a félév során
+  + van ppzh is
+* Témák
+- Alapfogalmak
+  + OSI modell
+  + modulációk
+  + csatornakódolás
+  + közeghozzáférési eljárások
+- Rádiós alapismeretek
+  + jelek alapsávi leírása
+  + fading modellek
+  + csatornamodellek
+  + cella elv
+- Közcélú rendszerek
+  + (2G,3G)
+  + 4G, LTE Advanced
+  + 5G
+- Vezeték nélküli hálózatok
+  + 802.11 család
+  + lokális hálózatok
+- Bluetooth (BLE), RFID, NFC
+- IP, mobil IP
+- Jövő hálózatai
+  + 5G+műhold
+  + mmWave
+  + (6G)
+  + IoT
+  + NB-IoT
+- Járműkommunikáció
