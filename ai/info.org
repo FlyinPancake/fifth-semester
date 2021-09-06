@@ -1,0 +1,35 @@
+#+TITLE: Mesterséges intelligencia infók
+#+author: Doma Pálvölgyi
+
+* Platformok
+** Teams
+Általános kommunikáció
+
+** MIT HFportál
+- https://hf.mit.bme.hu
+
+** Moodle
+** Weblap
+* Követelmények
+- 2 ZH
+- Házi ami 3 részes
+- Zh-nként min. 12.5 pont
+- Összesen min. 25 pont ZH-ból
+- A tárgypontok min 40%-a
+- A házi 36 (3*12) pont
+- A zh-k 32 pontosak
+-
+  | Jegy |    Pont |
+  |------+---------|
+  |    2 |   40-49 |
+  |    3 | 49.5-64 |
+  |    4 | 64.5-74 |
+  |    5 |         |
+** IMSC pontok
+- plusz zh feladatok
+- plusz házi
+- max 15 pont
+** ZH-k
+2 db ZH lesz idén
+1.
+2.

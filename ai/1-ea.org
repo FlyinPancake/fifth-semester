@@ -1,0 +1,82 @@
+#+TITLE: 1. előadás
+
+* Motiváció
+
+- StarCraft 2 - AlphaStar 2019
+  2019-ben elverte a legjobb StarCraft játékosokat
+- ADAS (Advanced driver-assistance systems)
+  Elvezet gond nélkül Békéscsabáig
+- Google Assistant / Siri / Alexa
+  Nagyon jól keresgélnek a neten
+
+Ezek nagyon jók magukban, de nem általánosak egyáltalán
+* Mi az intelligencia?
+- Rengeteg dimenziója van, nehéz mérni
+** Miért van szükségünk a mesterséges intelligenciára?
+- Segít megismerni az emberi kognitív folyamatokat
+- Emberi szakértők támogatása
+** Miért van szükségünk AI-ra (mérnöki szempontból)
+- Megoldható és kivitelezhető problémákkal foglalkozunk
+- Hogy értelmezzük a problémát?
+- Hogy specifikáljuk?
+- Hogy rögzítjük az adatokat?
+- Mire van szükség az architektúrától?
+
+
+** MI megközelítések
+- gondolkodó vagy cselekvő ?
+- racionális vagy emberi ?
+
+*** Emberi módon gondolkodó AI
+Neurobiológiában és kognitív tudományokban használják
+
+*** Emberi módon cselekvő AI
+Turing teszt, chatbotok
+
+- Tudásábrázolás
+- Következtetés
+*** Racionálisan gondolkodó AI
+logika, következtetés
+
+Nem minden írható le tisztán logikával
+*** Racionálisan cselekvő AI
+A megfelelő dolgot teszi a feladat megoldásához
+
+- A rendelkezésre álló információ alapján maximalizálja a teljesítményt
+- Kihívások:
+  1. a rendelkezésre álló információ nem teljes
+  2. hogyan mérjük a teljesítményt?
+** Az MI története
+- 1956 óta, akkor sakkozott és tételt bizonyított
+- Számítás alapú AI 1963-1979
+  + Neurális hálók 1966-tól 1973-ig
+- Tudásalapú AI
+  + 1986 - Neurális hálók megint
+  + 1988 - Valószínűségi rendszerek
+- Adatalapú AI
+- Autonóm tanuló AI
+** Az MI jövője
+- Gyenge / szűk AI
+  Itt vagyunk ma, az AI nem általános hanem speciális célú
+- Erős mesterséges intelligencia
+  Emberi szintű gondolkodás, általános AI
+- Szuperintelligencia
+  Az embert túlszárnyaló AI
+* Sakk: az MI kutatás muslicája
+** IBM Grand Challenge
+- 1997: Deep Blue legyőzi a sakkvilágbajnokot
+- 1999 - 2006 Blue Gene a fehéret prediktálja
+- 2011 Watson Jeopardy
+  + Beszédértés
+  + Következtetés
+  + Játékelmélet
+* AI - ML - DL Mi micsoda?
+Igazából AI része a ML és annak a része a DL
+* Számítógépes játékok játszatása
+Magában ezek nem fontosak, hanem a módszerek demózása
+** Civilization használati útmutató használata
+- A szabálykönyet elolvasva az AI tanuljon meg játszani
+** Atari játékok
+- Szabályrendszer nélkül próbáldatva megtanulni a játékot
+** AlphaGo
+- Nem az a cél hogy a go-t kimaxoljuk vele hanem pl a Monte Carlo fa keresést működését bizonyítsák
