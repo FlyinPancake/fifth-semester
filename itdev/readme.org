@@ -1,0 +1,6 @@
+#+TITLE: IT Eszközök technológiája
+#+author: Doma Pálvölgyi
+
+[[./info.org][Tárgykövetelmények]]
+
+[[./1-ea.org][1. óra]]
