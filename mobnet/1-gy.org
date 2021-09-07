@@ -1,0 +1,109 @@
+#+TITLE: 1. gyarkolat
+
+* Mire jó a cellás mobilhálózat?
+- A végberendezések nem fix helyen vannak
+- Nem kell kábeleket kihúzni
+- Rádiós csatorna biztonsági problémák!
+** Mozgó terminálok által felvetett kérdések
+- hogy jut el a hívás A-ból B-be?
+- hogy találunk megy egy eszközt?
+- hitelesítési problémák
+- egy cella lefedettségi területe nem
+-
+** Az r&d fő problémakörei
+*** Rádiós csatornák
+Problémák
+
+- Kis kapacitás (sávszél nagyon drága, )
+- zaj; időtől és helytől függően drasztikusan változó csillapítás; interferencia
+- keskeny csatornát is lehető legjobban kell kihasználni
+- mindenki hallja, ezért a biztonságot biztosítani kell
+*** Felhasználói mobilitás
+- rádió handoff:
+  + többvivős rendszerek
+  + okos antennák
+  + ultra-szélessávú antennák
+  + csatornakiegyenlítés
+- hibamentes adatátvitel:
+  + turbó kódolás
+  + iteratív kódok
+  + többfelhasználós vivők
+  + együttes forrás és csatorna kódok
+- intelligens csatornamegosztás
+  + QoS alapú és prioritásos ütemezők
+  + elosztott, központi koordináció nélküli csatonamegosztás
+  + MIMO antennák
+- hálózati transzport
+  + a rádiós átvitelhez igazított transzport protokollok
+  + mobilitást, biztonságot együtt nyújtó transzport protokollok
+- mobil-optimalizált alkalmazások
+
+* A mobilitás kezelése
+Két feladatra bontható:
+- helyzet nyilvántartás
+  + helyzet frissítés
+  + paging
+- hívásátadás
+** Helyzet nyilvántartás
+*** Mobilkészülék 3 állapota
+ + kikapcsolt
+   Ekkor nem lehet a telefon pozícióját megismerni
+ + aktív
+ + alvó/tétlen/idle
+*** Pozíció információk több szintű tárolása
+1. honos szolgáltató előfizetői adatbázisa
+
+   GSM esetén HLR (Home Location Register) LTE esetén HSS (Home Subscriber Service)
+
+2.
+** Cellaváltás
+** Hívásátadás
+- A bázisállomás területe véges, a cella szélén szar a rádiós csatorna minősége
+-
+*** Hívásátadások típusai
+- típusok:
+  + inter-cell handover -> cellaváltás
+  + intra-cell handover -> csatornaváltás interferencia miatt
+- Működés szerint csoportosítva
+  * Hard Handover: GSM, 5G
+  * Soft Handover
+  * Softer Handover
+- Technológia szerint csoportosítva
+  + Horizontális
+  + Vertikális 2g->4g, 5g-> VoWifi
+* Cellás hálózatok felépítése
+** Elemei (1g,2g,3g)
+- terminál (mobil)
+- bázisállomás (BS): mobil terminálok ezzel kommunikálnak közvetlenül
+- cella: a BS egy adó vevője által lefedett terület
+- kapcsolóközpont: vagy csomagtovábbító központ lehet többféle hierarchikusan
+- átjárók: a mobil hálózat kapcsolódási pontja a külvilághoz
+** TODO Cellák
+- makrocella
+  + nagy terület lefedése 1-35 Km
+  + ritkán lakott terület
+  + nagy teljesítmény
+  + kétszintű hálózat esetén a felső szint
+- mikrocella
+  + 1-0.2 Km
+- pikocella
+  + beltéri feledésre
+  + kb 200m
+  + kis teljesítmény ~ 100 mW
+- femtocella
+  + kisebb mint a piko
+  + ~ 10m lefedettség
+  + általában otthoni használatra, ahol nincs mobilhálózat a lakásban
+
+
+- hatszögcella
+- omnicella
+- szektorantenna
+  + egy bázisállomáson több cella
+  + létező cellák feldarabolása
+  + gyakorlatban a terep miatt szabálytalan
+  + 60-120 fok lefedés
+- hierarchikus cellák
+  + nagy forgalmú területek lefedése
+- esernyő cellák
+  + makrocella alatt mikró- / pikócellák
